@@ -3,27 +3,7 @@ import Button from "./Button"
 import "./timer.css"
 import { selectLabel, reset, tick, selectMinutes, selectSeconds } from '../reducers/timerSlice'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import wav from '../audio/96063__reecord2__alarm-beep-electronic.wav'
-
-// function useInterval(callback, delay) {
-//     const savedCallback = useRef();
-   
-//     // Remember the latest callback.
-//     useEffect(() => {
-//       savedCallback.current = callback;
-//     }, [callback]);
-   
-//     // Set up the interval.
-//     useEffect(() => {
-//       function tick() {
-//         savedCallback.current();
-//       }
-//       if (delay !== null) {
-//         let id = setInterval(tick, delay);
-//         return () => clearInterval(id);
-//       }
-//     }, [delay]);
-//   }
+import wav from '../audio/beep.wav'
 
 export default function Timer() {
     const timerLabel = useSelector(selectLabel);
