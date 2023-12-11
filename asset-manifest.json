@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/twenty-five-plus-five-clock/static/css/main.f855e6bc.css",
-    "main.js": "/twenty-five-plus-five-clock/static/js/main.3fda8c7f.js",
+    "main.css": "/twenty-five-plus-five-clock/static/css/main.0f911e8c.css",
+    "main.js": "/twenty-five-plus-five-clock/static/js/main.91f0f5c7.js",
     "static/js/787.af83d4a9.chunk.js": "/twenty-five-plus-five-clock/static/js/787.af83d4a9.chunk.js",
-    "static/media/logo.svg": "/twenty-five-plus-five-clock/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/beep.wav": "/twenty-five-plus-five-clock/static/media/beep.7d869799c6fe28274cb5.wav",
     "index.html": "/twenty-five-plus-five-clock/index.html",
-    "main.f855e6bc.css.map": "/twenty-five-plus-five-clock/static/css/main.f855e6bc.css.map",
-    "main.3fda8c7f.js.map": "/twenty-five-plus-five-clock/static/js/main.3fda8c7f.js.map",
+    "main.0f911e8c.css.map": "/twenty-five-plus-five-clock/static/css/main.0f911e8c.css.map",
+    "main.91f0f5c7.js.map": "/twenty-five-plus-five-clock/static/js/main.91f0f5c7.js.map",
     "787.af83d4a9.chunk.js.map": "/twenty-five-plus-five-clock/static/js/787.af83d4a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3fda8c7f.js"
+    "static/css/main.0f911e8c.css",
+    "static/js/main.91f0f5c7.js"
   ]
 }
