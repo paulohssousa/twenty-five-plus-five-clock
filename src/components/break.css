@@ -1,0 +1,27 @@
+#break-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    font-size: 1.4rem;
+}
+
+#break-length {
+    align-self: center;
+    font-size: 1.5rem;
+    padding: 3px;
+}
+
+
+#break-wrapper {
+    background-color: var(--color-4);
+}
+
+#break-ctrl {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span {
+    width: 40px;
+}

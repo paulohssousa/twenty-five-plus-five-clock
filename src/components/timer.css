@@ -1,0 +1,30 @@
+#timer-wrapper {
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: var(--color-4);
+    height: 100%;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+#controls {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#time-left {
+    width: 100px;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.time-alert {
+    color: var(--color-8);
+}

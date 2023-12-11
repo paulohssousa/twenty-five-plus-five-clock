@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Break from './components/Break';
+import Session from './components/Session';
+import Timer from './components/Timer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id='clock-wrapper'>
+        <Break />
+        <Session />
+        <Timer />
+      </div>
+      <footer className="App-footer">
+        developed by <a href='https://www.linkedin.com/in/paulohssousa/'>paulohssousa</a>
+      </footer>
     </div>
   );
 }
